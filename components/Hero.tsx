@@ -49,12 +49,12 @@ const Hero = () => {
         <div
           // chnage the bg to bg-black, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+         bg-black "
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center bg-black ">
+      <div className="flex justify-center relative my-10 z-10">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
          
 
           {/**
@@ -68,7 +68,7 @@ const Hero = () => {
           />
 
           <TypeAnimation
-              sequence={['Experienced React & Frontend Developer, skilled in MERN stack and TypeScript. Proficient in building responsive web applications and passionate about exploring new technologies. Committed to delivering high-quality solutions and continuous learning.']}
+              sequence={['Skilled web developer adept in React, JavaScript, TypeScript, and Java. Proficient in building responsive web applications and passionate about exploring new technologies. Committed to delivering high-quality solutions and continuous learning.']}
               wrapper="p"
               speed={99}
               className="text-xs mb-5  text-center text-white lg:text-base"
@@ -77,7 +77,7 @@ const Hero = () => {
             ></TypeAnimation>
        
 
-          <div onClick={onButtonClick} className="my-4">
+          <div onClick={onButtonClick} className="lg:-mt-7">
             <MagicButton
               title="View My Resume"
               icon={<LuFileSpreadsheet />}

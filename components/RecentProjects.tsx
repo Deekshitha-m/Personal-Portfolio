@@ -38,7 +38,7 @@ const RecentProjects = () => {
                 
               </div>
 
-              <a href={item.link}  className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <a href={item.link}  className="font-bold lg:text-xl md:text-xl text-base line-clamp-1 text-white">
                 {item.title}
               </a >
 
