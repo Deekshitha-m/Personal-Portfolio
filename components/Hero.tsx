@@ -64,7 +64,7 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words={`Hi! I'm Deekshitha M, a Web Developer.`}
-            className="text-center text-[27px]  md:text-[46px] lg:text-[69px] text-white"
+            className="text-center text-[28px] md:text-[46px] lg:text-[69px] text-white"
           />
 
           <TypeAnimation
